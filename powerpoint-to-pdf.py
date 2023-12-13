@@ -45,6 +45,6 @@ root.title("PPTX to PDF Converter")
 root.geometry("300x150")
 
 button = tk.Button(root, text="Select PPTX Files", command=convert_pptx_to_pdf)
-button.pack(pady=20)
+button.pack(expand=True)
 
 root.mainloop()
